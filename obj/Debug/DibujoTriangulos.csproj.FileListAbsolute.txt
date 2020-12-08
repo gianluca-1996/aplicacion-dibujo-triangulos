@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\DibujoTriangulos\bin\Debug\DibujoTriangulos.exe.config
+C:\Users\admin\source\repos\DibujoTriangulos\bin\Debug\DibujoTriangulos.exe
+C:\Users\admin\source\repos\DibujoTriangulos\bin\Debug\DibujoTriangulos.pdb
+C:\Users\admin\source\repos\DibujoTriangulos\obj\Debug\DibujoTriangulos.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\DibujoTriangulos\obj\Debug\DibujoTriangulos.Form1.resources
+C:\Users\admin\source\repos\DibujoTriangulos\obj\Debug\DibujoTriangulos.Properties.Resources.resources
+C:\Users\admin\source\repos\DibujoTriangulos\obj\Debug\DibujoTriangulos.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\DibujoTriangulos\obj\Debug\DibujoTriangulos.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\DibujoTriangulos\obj\Debug\DibujoTriangulos.exe
+C:\Users\admin\source\repos\DibujoTriangulos\obj\Debug\DibujoTriangulos.pdb
