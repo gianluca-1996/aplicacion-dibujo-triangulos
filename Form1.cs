@@ -58,24 +58,27 @@ namespace DibujoTriangulos
 
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
         {
+            int incremento = 5;
             int xCentro = pictureBox1.Width / 2;
             int yCentro = pictureBox1.Height / 2;
-            Pen lapiz = new Pen(Color.Black, 2);
+            Pen lapiz = new Pen(Color.Black, 1);
             e.Graphics.TranslateTransform(xCentro, yCentro);
             e.Graphics.ScaleTransform(1, -1);
             e.Graphics.DrawLine(lapiz, xCentro * -1, 0, xCentro * 2, 0);
             e.Graphics.DrawLine(lapiz, 0, yCentro, 0, yCentro * -1);
 
-            for(int i = -xCentro; i < xCentro; i += 8)
+            for (int i = -xCentro; i < xCentro; i += 5)
             {
-                e.Graphics.DrawLine(lapiz, 5, i, -5, i);
-                e.Graphics.DrawLine(lapiz, i, 5, i, -5);
+                e.Graphics.DrawLine(lapiz, -5, -incremento, 5, -incremento);    //eje y positivo
+                e.Graphics.DrawLine(lapiz, -5, incremento, 5, incremento);      //eje y negativo
+                e.Graphics.DrawLine(lapiz, -incremento, 5, -incremento, -5);    //eje x negativo
+                e.Graphics.DrawLine(lapiz, incremento, -5, incremento, 5);    //eje x positivo
+                incremento += 5;
             }
         }
 
         private void dibujarButton_Click(object sender, EventArgs e)
         {
-            
             miTriangulo.graficar();
         }
     }
