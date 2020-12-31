@@ -105,7 +105,8 @@ namespace DibujoTriangulos.Clases
             z1 = (Convert.ToDouble(yCentro) - 5 * Convert.ToDouble(textBoxY3.Text));
 
             vector = pictureBox.CreateGraphics();
-            
+            lapiz = new Pen(Color.OrangeRed);
+
             vector.DrawLine(lapiz, Convert.ToInt32(x1), Convert.ToInt32(y1), Convert.ToInt32(x2),
                 Convert.ToInt32(y2));
             vector.DrawLine(lapiz, Convert.ToInt32(x2), Convert.ToInt32(y2), Convert.ToInt32(z),
@@ -115,6 +116,7 @@ namespace DibujoTriangulos.Clases
 
             lapiz.Dispose();
             vector.Dispose();
+
         }
 
         private void trigonometria(int valor)
